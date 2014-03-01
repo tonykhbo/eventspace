@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		Pushbots.init(this, SENDER_ID, APPLICATION_ID);
 		setContentView(R.layout.activity_main);
+		//hi
 	}
 
 	@Override
