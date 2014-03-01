@@ -7,6 +7,8 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 	private String SENDER_ID = "297016747626";
@@ -31,5 +33,11 @@ public class MainActivity extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public void showEvent(View view){
+		TextView t=(TextView)findViewById(R.id.textArea);
+		t.setText("yayyyyyyyy!");
+	}
+	
 
 }

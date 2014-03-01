@@ -9,13 +9,23 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/eventButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:onClick="showEvent"
+        android:text="@string/event_button" />
+
+    <TextView
+        android:id="@+id/textArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="113dp"
-        android:layout_marginLeft="54dp"
-        android:text="Button" />
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/eventButton"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="98dp" />
 
 </RelativeLayout>
