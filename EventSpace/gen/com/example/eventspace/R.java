@@ -24,9 +24,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080002;
-        public static final int eventButton=0x7f080000;
-        public static final int textArea=0x7f080001;
+        public static final int action_settings=0x7f080005;
+        public static final int contactInfoButton=0x7f080004;
+        public static final int mapButton=0x7f080003;
+        public static final int publicChatButton=0x7f080002;
+        public static final int scheduleButton=0x7f080001;
+        public static final int textArea=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -37,8 +40,11 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int event_button=0x7f050002;
+        public static final int contactInfoButtonText=0x7f050007;
+        public static final int mapButtonText=0x7f050006;
+        public static final int publicChatButtonText=0x7f050005;
         public static final int public_chat=0x7f050004;
+        public static final int scheduleButtonText=0x7f050002;
         public static final int text_string=0x7f050003;
     }
     public static final class style {

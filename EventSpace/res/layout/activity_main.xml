@@ -8,24 +8,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/eventButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:onClick="showEvent"
-        android:text="@string/event_button" />
-
     <TextView
         android:id="@+id/textArea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/eventButton"
+        android:layout_alignRight="@+id/scheduleButton"
         android:layout_marginLeft="73dp"
         android:layout_marginTop="98dp" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="45dp"
+        android:onClick="showEvent"
+        android:text="@string/scheduleButtonText" />
+
+    <Button
+        android:id="@+id/publicChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scheduleButton"
+        android:layout_alignBottom="@+id/scheduleButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginRight="28dp"
+        android:onClick="showEvent"
+        android:text="@string/publicChatButtonText" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scheduleButton"
+        android:layout_alignLeft="@+id/scheduleButton"
+        android:layout_alignRight="@+id/scheduleButton"
+        android:layout_marginBottom="28dp"
+        android:text="@string/mapButtonText" />
+
+    <Button
+        android:id="@+id/contactInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mapButton"
+        android:layout_alignBottom="@+id/mapButton"
+        android:layout_alignRight="@+id/publicChatButton"
+        android:text="@string/contactInfoButtonText" />
 
 </RelativeLayout>
