@@ -36,7 +36,23 @@ public class MainActivity extends Activity implements OnClickListener {
 	
 	public void showEvent(View view){
 		TextView t=(TextView)findViewById(R.id.textArea);
-		t.setText("yayyyyyyyy!");
+		switch(view.getId()){
+		case R.id.mapButton:
+			t.setText("map button pressed");
+			break;
+		case R.id.contactInfoButton:
+			t.setText("contact button pressed");
+			break;
+		case R.id.publicChatButton:
+			t.setText("PC button pressed");
+			break;
+		case R.id.scheduleButton:
+			t.setText("schedule button pressed");
+			break;
+		default:
+			break;
+			
+		}
 	}
 	
 

@@ -48,6 +48,7 @@
         android:layout_alignLeft="@+id/scheduleButton"
         android:layout_alignRight="@+id/scheduleButton"
         android:layout_marginBottom="28dp"
+        android:onClick="showEvent"
         android:text="@string/mapButtonText" />
 
     <Button
@@ -57,6 +58,7 @@
         android:layout_alignBaseline="@+id/mapButton"
         android:layout_alignBottom="@+id/mapButton"
         android:layout_alignRight="@+id/publicChatButton"
+        android:onClick="showEvent"
         android:text="@string/contactInfoButtonText" />
 
 </RelativeLayout>
